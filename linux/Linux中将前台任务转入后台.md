@@ -1,6 +1,7 @@
 Title: linux会话中将前台任务转入后台
 Date: 2012-07-26 20:34
 Category: Linux
+Slug: linux-front-job-backgroup
 
 有时会遇到这样一种情况：在没有使用screen之类的管理会话的软件的时候，需要退出当前运行会话，但会话中有个任务运行了很久了，退出的话这个任务会被kill掉（收到SIGHUP的信号）。
 

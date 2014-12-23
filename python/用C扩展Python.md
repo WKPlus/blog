@@ -1,6 +1,7 @@
 Title: 如何用C/C++扩展Python的功能
 Date: 2013-02-18 18:58
 Category: python
+Slug: python-c-extension
 
 用c/c++扩展Python功能，说简单点就是python中调用c/c++代码，比较基础的有两种方式：
 

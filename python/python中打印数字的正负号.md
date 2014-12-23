@@ -1,6 +1,7 @@
 Title: python 打印数字的正负号
 Date: 2013-11-11 18:10
 Category: python
+Slug: python-print-sign
 
 python中使用`print "%d"%i`时，默认是不显示"+"号的：
 

@@ -1,6 +1,7 @@
 Title: python精美片段之找出list中符合条件的第一个元素
 Date: 2014-09-22 16:02
 Category: python
+Slug: python-pearl-1
 
 ### 第一种写法
 

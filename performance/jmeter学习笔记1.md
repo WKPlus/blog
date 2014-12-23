@@ -1,6 +1,7 @@
 Title: Jmeter学习笔记
 Date: 2013-10-24 17:22
 Category: 杂项
+Slug: jmeter-learning-1
 
 最近在学习使用Jmeter完成web的压力测试。
 

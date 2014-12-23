@@ -1,6 +1,7 @@
 Title: 使用wordpress搭建个人站点
 Date: 2013-01-27 21:25
 Category: 杂项
+Slug: build-site-on-wordpress
 
 ## 1. 安装mysql
 

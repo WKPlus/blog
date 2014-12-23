@@ -1,6 +1,7 @@
 Title: 采坑记录：python json不支持int类型key
 Date: 2014-12-10 17:55
 Category: python
+Slug: json-int-key
 
 
 最近踩了一个很好玩的坑：

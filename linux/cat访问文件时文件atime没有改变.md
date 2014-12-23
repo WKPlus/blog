@@ -1,6 +1,7 @@
 Title: cat文件时文件访问时间没有改变
 Date: 2013-12-24 10:15
 Category: Linux
+Slug: linux-file-timestamp
 
 Linux文件系统中，每个文件有三个时间属性：atime(access time)、mtime(modify time)、ctime(change time)
 

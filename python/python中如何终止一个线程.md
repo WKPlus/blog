@@ -1,6 +1,7 @@
 Title: python中如何中止一个线程
 Date: 2012-03-29 21:18
 Category: python
+Slug: python-thread-interrupt
 
 今天遇到一个需求，希望可以实现一个带时间上限的线程池的功能，需要在到达时间上限的时候，主动kill掉那些slave线程。
 

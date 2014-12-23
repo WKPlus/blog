@@ -1,6 +1,7 @@
 Title: 将xfe格式的unicode转化为u00fe格式
 Date: 2014-12-10 17:55
 Category: python
+Slug: python-short-unicode-convert
 
 python 2.x中的unicode，如果某个字符位于80和ff之间，默认是用单字节表示的：
 

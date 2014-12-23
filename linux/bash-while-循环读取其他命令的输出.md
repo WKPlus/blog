@@ -1,6 +1,7 @@
 Title: bash while循环读取其他命令的输出
 Date: 2014-10-09 17:37
 Category: Linux
+Slug: bash-while-read
 
 bash while循环读取其他命令的输出有三种方式：`pipe` 、`here-string`以及`process substitution`。
 

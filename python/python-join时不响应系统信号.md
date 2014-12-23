@@ -1,6 +1,7 @@
 Title: python join不响应信号
 Date: 2013-11-11 17:55
 Category: python
+Slug: python-join-signal
 
 python在写多线程程序时，发现多线程启动之后，用ctrl+c终止不了了，之前也没太关注，因为用kill -9还是可以终止的。
 

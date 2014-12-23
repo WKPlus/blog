@@ -1,6 +1,7 @@
 Title: Linux 进程调度策略与top命令的PR NI值
 Date: 2013-06-18 18:25
 Category: 性能测试与调优
+Slug: linux-top-pr-ni
 
 Linux进程有`SCHED_OTHER/SCHED_BATCH/SCHED_IDLE/SHCED_FIFO/SCHED_RR`五种调度策略，前面三种是常规调度策略，后面两种是实时调度策略。具体介绍点击[这里](http://linux.die.net/man/2/sched_setscheduler)。
 

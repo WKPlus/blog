@@ -1,6 +1,7 @@
 Title: python中创建singleton的方法
 Date: 2014-09-11 17:40
 Category: python
+Slug: python-singleton
 
 ### 名称覆盖
 -----------

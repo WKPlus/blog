@@ -1,6 +1,7 @@
 Title: Linux常用命令
 Date: 2012-04-18 20:46
 Category: Linux
+Slug: linux-common-commands
 
 ## 系统软硬件、配置查看：
 

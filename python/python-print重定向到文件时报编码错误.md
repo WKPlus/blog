@@ -1,6 +1,7 @@
 Title: python print 重定向到文件时编码错误
 Date: 2014-06-13 22:35
 Category: python
+Slug: python-print-encode-error
 
 使用python print的时候经常遇到一个奇怪的问题：
 

@@ -1,6 +1,7 @@
 Title: C++程序常见的性能调优方式
 Date: 2012-11-18 21:41
 Category: 性能测试与调优
+Slug: cpp-performance-tuning
 
 最近做了一段时间的程序性能调优，写个帖子总结一下。
 

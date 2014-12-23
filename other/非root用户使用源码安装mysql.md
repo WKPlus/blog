@@ -1,6 +1,7 @@
 Title: 非root使用源码安装mysql
 Date: 2012-09-27 20:02
 Category: 杂项
+Slug: install-mysql
 
 安装步骤：
 

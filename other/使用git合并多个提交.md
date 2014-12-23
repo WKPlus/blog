@@ -1,6 +1,7 @@
 Title: 使用git合并多个提交
 Date: 2012-07-30 21:07
 Category: 杂项
+Slug: git-combine-commmit
 
 假设要合并最后的2个提交，可以按如下命令进行：
 

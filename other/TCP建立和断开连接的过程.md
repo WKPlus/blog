@@ -1,6 +1,7 @@
 Title: TCP建立和断开连接过程中的状态转换
 Date: 2013-11-29 18:57
 Category: 杂项
+Slug: tcp-connect-disconnect
 
 最近看到netstat中的一些状态，比较好奇，整理了一下tcp连接建立和断开过程中的状态转换。
 

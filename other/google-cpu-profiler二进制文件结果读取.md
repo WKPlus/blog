@@ -1,6 +1,7 @@
 Title: google cpu profiler二进制结果读取
 Date: 2012-05-28 21:12
 Category: 杂项
+Slug: google-cpu-profiler-result
 
 最近一段时间在google cpu profiler做性能热点采样。
 

@@ -1,6 +1,7 @@
 Title: 使用linux mail发送邮件及一些问题解决
 Date: 2013-11-11 18:57
 Category: Linux
+Slug: linux-mail
 
 使用方式如下：
 

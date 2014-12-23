@@ -1,6 +1,7 @@
 Title: 从Mac同步文档到iphone
 Date: 2013-12-05 18:24
 Category: 杂项
+Slug: mac-iphone-transfer
 
 最近迷上了一部电子书，电脑上下载下来想传到iphone好上下班的时候在路上看。
 

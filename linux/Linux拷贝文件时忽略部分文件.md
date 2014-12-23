@@ -1,6 +1,7 @@
 Title: linux cp过程中ignore部分文件
 Date: 2012-09-03 20:31
 Category: Linux
+Slug: linux-cp-ignore
 
 遇到一个需求，在cp的过程中需要ignore掉部分文件，发现cp没有自带ignore之类的选项。
 

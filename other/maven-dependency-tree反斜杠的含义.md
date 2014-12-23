@@ -1,6 +1,7 @@
 Title: maven dependency:tree中反斜杠的含义
 Date: 2013-11-11 18:24
 Category: 杂项
+Slug: maven-dependency-slash-mark
 
 一个mvn dependency:tree命令执行的输出如下：
 

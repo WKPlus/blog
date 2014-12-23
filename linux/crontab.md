@@ -1,6 +1,7 @@
 Title: crontab使用
 Date: 2012-10-08 17:04
 Category: Linux
+Slug: crontab
 
 crontab格式：
 

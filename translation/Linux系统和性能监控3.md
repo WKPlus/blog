@@ -1,6 +1,7 @@
 Title: Linux系统和性能监控(3)
 Date: 2013-01-02 22:14
 Category: 翻译
+Slug: linux-system-performance-monitoring-3
 
 原文Linux System and Performance Monitoring，作者Darren Hoch。
 

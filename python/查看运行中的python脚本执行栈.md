@@ -1,6 +1,7 @@
 Title: 查看运行中的python脚本的堆栈
 Date: 2012-11-06 16:26
 Category: python
+Slug: python-stack
 
 对于c/c++程序，我们可以在运行过程中通过pstack来查看程序当前的执行堆栈。
 

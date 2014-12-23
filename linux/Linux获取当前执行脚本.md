@@ -1,6 +1,7 @@
 Title: linux获取当前执行脚本
 Date: 2012-06-01 12:04
 Category: Linux
+Slug: linux-current-script
 
 今天遇到一个需求，获取当前执行脚本：
 - 如果是`sh test.sh`或者`./test.sh`的运行方式，那么很简单，直接使用`$0`就可以了。  

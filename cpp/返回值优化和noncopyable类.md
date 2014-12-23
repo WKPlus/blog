@@ -1,6 +1,7 @@
 Title: 返回值优化和noncopyable class
 Date: 2012-06-21 18:17
 Category: 编译器
+Slug: rvo-noncopyable
 
 今天上班，遇到件比较有意思的事情。有同事叫我看一段代码，这段代码在gcc上可以编译通过，但是用bullseye cover编译用于统计覆盖率的时候，链接阶段报错了。
 

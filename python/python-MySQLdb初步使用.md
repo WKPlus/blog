@@ -1,6 +1,7 @@
 Title: python MySQLdb的初步使用
 Date: 2012-09-03 20:51
 Category: python
+Slug: python-mysqldb
 
 MySQLdb库使用还是比较简单的，了解了几个API就可以开始捣腾了。
 

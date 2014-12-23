@@ -1,6 +1,7 @@
 Title: python iterator 和 generator
 Date: 2014-09-23 15:57
 Category: python
+Slug: python-iterator-generator
 
  
 
