@@ -1,7 +1,7 @@
-Title: N NP问题理解
+Title: P NP问题理解
 Date: 2014-12-23 18:24
 Category: 杂项
-Slug: n-np
+Slug: p-np
 
 
 ##P和NP的定义
