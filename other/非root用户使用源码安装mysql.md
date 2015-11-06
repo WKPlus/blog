@@ -38,6 +38,8 @@ Slug: install-mysql
 4. 创建/删除数据库： `create database database1; drop database database1;`
 5. 查询主从库状态：`show slave/master status;`
 6. 查询从库设置：`show variables like '%slave%';`
+7. 查询当前数据库字符集：`show variables like 'char%';`
+8. 修改数据库字符集： `ALTER DATABASE database CHARACTER SET utf8;`
 
 另外，如果新创建的用户使用密码无法登录，不使用密码反而可以登录的情况，是因为mysql中存在可以本地登录的匿名用户。
 删除本地登录的匿名用户即可解决这个问题（`drop user ''@localhost`）。 

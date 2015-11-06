@@ -25,6 +25,7 @@ UnicodeEncodeError: 'ascii' codec can\'t encode characters in position
 1. 在代码中以UTF-8的方式打开文件，然后写文件
 2. print unicode之前，显示按str的来源方式编码，比如utf8。原来的print需要改为`print ucontent.encode(‘uft8’)`
 3. `env PYTHONIOENCODING=utf-8 python ./script.py > log`
+4. 在文件开头加上`import sys;reload(sys);sys.setdefaultencoding('utf8')`
 
 如果是写一个小工具，临时用用，推荐用第三种方式，简单、快捷。
 
