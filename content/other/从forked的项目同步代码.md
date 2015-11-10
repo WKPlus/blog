@@ -5,8 +5,8 @@ Slug: git-sync-from-forked-repo
 
 从forked项目的master分支同步代码至fork项目的master分支：
 
-```
-1. git remote add upstream \<forked project url>
+```bash
+1. git remote add upstream <forked project url>
 2. git fetch upstream
 3. git checkout master #保证本地处于master分支
 4. git merge upstream/master #把forked项目的修改merge到本地
@@ -17,9 +17,8 @@ Slug: git-sync-from-forked-repo
 
 从forked项目同步新分支到fork项目：
 
-```
-
-1. git remote add upstream \<forked project url>
+```bash
+1. git remote add upstream <forked project url>
 2. git fetch upstream
 3. git checkout -b newbranch upstream/newbranch
 4. git push -u origin newbranch
