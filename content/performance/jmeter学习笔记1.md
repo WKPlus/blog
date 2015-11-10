@@ -29,17 +29,17 @@ Jmeter是Apache的一款开源的压力测试工具，纯java编写，可用于�
 
 1. jmeter中新建一个线程组（测试计划上右击）
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn.png)
 
 2. 工作台上右击，添加一个HTTP代理服务器，配置Test plan content的目标控制器为“测试计划 \> 线程组”，分组为“每个组放入一个新的控制器”（其实选不分组也行）
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage1.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn1.png)
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage2.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn2.png)
 
 3. 启动代理服务器
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage3.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn3.png)
 4.  在浏览器中配置使用该代理，然后你通过这个代理的所有操作就被记录了，可劲造吧。。。
 5. 停止代理，一份脚本就录制好了。到此，第一步搞定了。
 
@@ -47,27 +47,27 @@ Jmeter是Apache的一款开源的压力测试工具，纯java编写，可用于�
 ### 配置cookie管理器
 
 这个很简单，右击线程组添加一个HTTP Cookie管理器就好了。操作很简单，但是没这步的话，登录之后的操作全部无效
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage4.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn4.png)
 
 ### 修改并发，配置多用户
 
 1. 添加一个" CSV Data Set Config"
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage5.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn5.png)
 
 2. 重点是两个区域：`Filename`和`Variable Names`，Filename告诉jmeter从哪个文件读入配置文件，Variable Name告诉jmeter把读取的数据赋给哪些变量（后面登录的时候需要用到这两个变量）。其他的，初级使用不用管。
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage6.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn6.png)
 
 3. 找到刚才录制脚本中，登录的部分修改用户名、密码为第二步中设置的变量，注意加上\$，大括号有没有无所谓，变量名字随便取，只要2和3步中的设置一致即可。
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage7.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn7.png)
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage8.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn8.png)
 
 4. 然后设置并发，选择线程组，配置线程数即可。（csv文件中的记录，会被依次赋值给不同的线程，如果线程数大于csv的记录，则从头循环使用）
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/10/NewImage9.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/jmeter_learn9.png)
 
 5. 第4步还可以配置循环次数和Ramp-Up Period，循环次数应该很容易理解。Ramp-Up Period稍微解释下：这用来配置一个参数，告诉jmeter在多长时间内全部启动前面配置那么多线程。如果配置了100线程，然后配置了Ramp-Up为50秒，那么jmeter大概会每秒启动2个线程。
 

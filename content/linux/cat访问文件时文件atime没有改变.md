@@ -15,7 +15,7 @@ Linux文件系统中，每个文件有三个时间属性：atime(access time)、
 
 操作步骤如下：
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/12/NewImage.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/linux_atime1.png)
 
 
 但是，最近发现一个情况：cat一个文件的时候文件的atime有时改变又是不改变。比如上图中最后一次cat并没有使得文件的atime发生改变。
@@ -26,7 +26,7 @@ Linux文件系统中，每个文件有三个时间属性：atime(access time)、
 
 因此文件系统增加了一个选项，可以用来控制是否每次访问文件都修改atime。使用命令man mount可以查看：
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/12/NewImage1.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/linux_atime2.png)
 
 其中relatime的意思是：并不是每次访问文件都会更新最后访问时间，除非文件上一次的访问时间比文件的mtime或ctime要早。
 
@@ -35,5 +35,5 @@ Linux文件系统中，每个文件有三个时间属性：atime(access time)、
 
 由下图可以看到，测试目录所在的文件系统使用了relatime的选项，因此不会每次访问都更新访问时间。
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/12/NewImage2.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/linux_atime3.png)
 

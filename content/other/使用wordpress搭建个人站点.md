@@ -33,7 +33,7 @@ Slug: build-site-on-wordpress
 
 6. 测试apache是否可以正常解析php：
    - 新建test.php文件，放入apache/htdocs目录，内容如下：  
-       ![image](http://images.cnitblog.com/blog/339471/201301/20200250-74e41e8c02e44b73b3aca2acfedcd5cc.png "image")
+       ![image](http://7xo7ae.com1.z0.glb.clouddn.com/build_site_with_wordpress1.png)
 7.  启动apache服务器 
 8.  打开浏览器访问IP:PORT/test.php（IP为apache所在服务器的地址，PORT为apache监听端口）
 9.  官方安装文档[地址](http://php.net/manual/zh/install.unix.apache2.php)
@@ -46,7 +46,7 @@ Slug: build-site-on-wordpress
 4. 在mysql中新建一个数据库供wordpress使用
 5. 在mysql中新建一个用户，拥有上一步创建的数据库的读写权限
 6. 进入apache/htdocs/wordpress目录，将wp-config-sample.php重命名为wp-config.php，打开该文件并将4、5两步新建的数据库和用户信息填入对应位置，如下：
-    ![image](http://images.cnitblog.com/blog/339471/201301/20200251-25aceddc310d4bc6bff5f7b99b933e7b.png "image")
+    ![image](http://7xo7ae.com1.z0.glb.clouddn.com/build_site_with_wordpress2.png)
 7. 打开浏览器访问IP:PORT/wordpress（IP为apache所在服务器的地址，PORT为apache监听端口，如果第3步重命名了wordpress目录，则PORT/后面需要修改为对应的名字）
 8. 按照页面提示，填入所需信息，一步即可按照成功
 

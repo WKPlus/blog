@@ -32,9 +32,9 @@ Slug: linux-system-performance-monitoring-1
 
 下面是一个系统基线和高利用率的性能数据对比示例：
 
-![image](http://images.cnitblog.com/blog/339471/201301/01224848-0f34433082854857a00db8e4b775f3c7.png "image")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/linux_monitor1_1.png)
 
-![image](http://images.cnitblog.com/blog/339471/201301/01224850-3ffde157c5324f67bc79c6cf3fb31750.png "image")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/linux_monitor1_2.png)
 
 看表示CPU空闲率的最后一列（id）我们可以知道基线的CPU空闲率在79%-100%之间。而在第二个图片中我们看到CPU资源没有空闲，被100%占用了。下面需要做的就是判断如此高的CPU占用率是不是预期中的了。
 

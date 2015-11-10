@@ -13,15 +13,15 @@ Slug: tcp-connect-disconnect
 
 TCP建立过程，如下图：
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/11/NewImage.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/tcp1.png)
 
  
 
 TCP断开过程，如下图：（断开过程的状态转换可能有两种情况）
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/11/NewImage1.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/tcp2.png)
 
-![NewImage](http://www.708luo.com/blog/wp-content/uploads/2013/11/NewImage2.png "NewImage.png")
+![image](http://7xo7ae.com1.z0.glb.clouddn.com/tcp3.png)
 
 
 **备注：**
