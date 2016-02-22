@@ -17,7 +17,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-THEME_PATH = '/root/pelican-themes/'
+THEME_PATH = '/var/www/pelican/pelican-themes/'
 THEME = THEME_PATH + 'pelican-bootstrap3'
 #THEME = THEME_PATH + 'nmnlist'
 
