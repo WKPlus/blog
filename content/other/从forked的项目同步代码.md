@@ -13,7 +13,9 @@ Slug: git-sync-from-forked-repo
 5. git push origin master #把本地修改提交到远端仓库（fork项目）的master分支
 ```
 
-
+  
+  
+  
 
 从forked项目同步新分支到fork项目：
 
