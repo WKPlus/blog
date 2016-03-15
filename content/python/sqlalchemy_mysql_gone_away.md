@@ -1,4 +1,4 @@
-Title: SQLAlchemy
+Title: SQLAlchemy数据库连接被关闭
 Date: 2016-03-15 11:02
 Category: python
 Slug: sqlalchemy-mysql-gone-way
